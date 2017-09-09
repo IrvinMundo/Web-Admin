@@ -1,4 +1,6 @@
-{{> header }}  
+{{> header }} 
+{{> men }} 
+
     <h1>Reservaciones</h1>  
 <form>
 	

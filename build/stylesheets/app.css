@@ -11,7 +11,7 @@
   color: #3c1313; }
 
 .container a:hover {
-  background-color: lightgrey; }
+  color: lightgrey; }
 
 .container .listado, .container .listado .listadoHijo {
   font-family: Lucida Sans Unicode;
@@ -27,8 +27,6 @@
   padding: 50px; }
 
 #wrapper {
-  height: 100%;
-  widht: 100%;
   background: -webkit-linear-gradient(bottom, #3c61b0, black);
   /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(top, #3c61b0, black);

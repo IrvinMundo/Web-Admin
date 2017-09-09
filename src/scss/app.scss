@@ -16,7 +16,7 @@
         color:#3c1313;
     }
     a:hover{
-        background-color:lightgrey;
+        color:lightgrey;
     }
     .listado{
         font:{
@@ -42,8 +42,6 @@
 }
 
 #wrapper{
-	height:100%;
-	widht:100%;
 	background: -webkit-linear-gradient(bottom, rgba(60,97,176,100), rgba(0,0,0,100)); /* For Safari 5.1 to 6.0 */
    background: -o-linear-gradient(top, rgba(60,97,176,100), rgba(0,0,0,100)); /* For Opera 11.1 to 12.0 */
    background: -moz-linear-gradient(top, rgba(60,97,176,100), rgba(0,0,0,100)); /* For Firefox 3.6 to 15 */
