@@ -64,7 +64,8 @@ gulp.task('mustache', function() {
         // partials        
         header : './src/mustache/layout/header.mustache',
         footer : './src/mustache/layout/footer.mustache',
-        listado : './src/mustache/layout/listado.mustache'
+        listado : './src/mustache/layout/listado.mustache',
+        men: './src/mustache/layout/men.mustache'
     }))
     .on('error', onError)
     .pipe(gulp.dest('./src/templates/'))    
