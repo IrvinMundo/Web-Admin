@@ -8,22 +8,27 @@
 	<link rel="stylesheet" type = "text/css" href="./stylesheets/app.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
-<body>    <h1>Inicio de Sesión</h1>  
+<body><div id="wrapper">
+    <h1 id="alfredo">Inicio de Sesión</h1>  
 <form>
 
   <div class="container">
+  <img class="centro" src="https://vignette2.wikia.nocookie.net/clubpenguin/images/1/1c/Micr%C3%B3fono_icono.png/revision/latest?cb=20140705014018&path-prefix=es" alt=""><br><br><br><br>
+    <div class="centro">
+    <div class= "input-group centro">
     <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <!-- <button type="submit">Login</button>-->
+    <input type="text" class="form-control" placeholder="Enter Username" name="uname" required>
+    </div>
+    <div class= "input-group centro">
+    <label><b>Password</b></label>  
+    <input type="password" class="form-control" placeholder="Enter Password" name="psw" required>
+    </div>
     <a href="menu.html">Submit</a>
     <input type="checkbox" checked="checked"> Remember me
+ </div>
   </div>
 </form>
-
+</div>
 	<script src="js/bundle.js"></script>
 	<script src="js/bootstrap.js"></script>
 	</body>

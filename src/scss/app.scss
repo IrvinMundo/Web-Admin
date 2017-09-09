@@ -8,19 +8,15 @@
 // Compass
 
 
-.clasePrueba{
+.container{
     h1{
-        font-size: 60px
+        color: #e175da;
     }
     p{
-        font-size: 25px;
         color:#3c1313;
     }
-    a{
-        font-size: 40px;
-    }
     a:hover{
-        background-color: yellow;
+        background-color:lightgrey;
     }
     .listado{
         font:{
@@ -40,4 +36,25 @@
 		font-style: italic;
 	}
     }
+    .centro{
+        padding: 50px;
+    }
+}
+
+#wrapper{
+	height:100%;
+	widht:100%;
+	background: -webkit-linear-gradient(bottom, rgba(60,97,176,100), rgba(0,0,0,100)); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(top, rgba(60,97,176,100), rgba(0,0,0,100)); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(top, rgba(60,97,176,100), rgba(0,0,0,100)); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to top, rgba(60,97,176,100), rgba(0,0,0,100)); /* Standard syntax (must be last) */
+    
+    
+}
+#alfredo{
+        color: #e175da;  
+    }
+a{
+    color:#e175da;
+    font-size: 50px;
 }
