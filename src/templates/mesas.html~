@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type = "text/css" href="./stylesheets/app.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
-<body>    <h1>Inicio de Sesión</h1>  
+<body>
 <form>
 
   <div class="container">
@@ -18,20 +18,34 @@
 				<tr>
 					<th>Mesa</th>
 					<th>Estatus</th>
+					<th>Evento</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr class="table-secondary">
-					<td class="calificacion parametro">Mesa 1</td>
-					<td class="calificacion parametro">Disponible</td>
+					<td class=""><a href="mesa.html">Mesa 1</a></td>
+					<td class="">Disponible</td>
+					<td class="">-------</td>
 				</tr>
 				<tr class="table-secondary">
-					<td class="calificacion parametro">Mesa 2</td>
-					<td class="calificacion parametro">Ocupada</td>
+					<td class="">Mesa 2</td>
+					<td class="">Ocupada</td>
+					<td class="">Cumpleaños de mi mamá</td>
 				</tr>
 				<tr class="table-secondary">
-					<td class="calificacion parametro">Mesa 3</td>
-					<td class="calificacion parametro">Ocupada</td>
+					<td class="">Mesa 3</td>
+					<td class="">Ocupada</td>
+					<td class="">Peda con los amigos</td>
+				</tr>
+				<tr class="table-secondary">
+					<td class="">Mesa 4</td>
+					<td class="">Disponible</td>
+					<td class="">--------</td>
+				</tr>
+				<tr class="table-secondary">
+					<td class="">Mesa 5</td>
+					<td class="">DIsponible</td>
+					<td class="">---------</td>
 				</tr>
 			</tbody>
 		</table>

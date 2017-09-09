@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Prueba</title>
-	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
-	<link rel="stylesheet" type = "text/css" href="./stylesheets/app.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-</head>
-<body>    <h1>Reservaciones</h1>  
+{{> header }}  
+    <h1>Reservaciones</h1>  
 <form>
 	
 	<div class="input-group">
@@ -27,7 +18,7 @@
 	</div>
 	</br>
 	<ul class="list-group">
-  		 <a href="reservacion.html" class="list-group-item list-group-item-action">Reservación de Pedro</a>
+  		 <a href="reservacion.html" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
   		<li class="list-group-item">Reservación de María</li>
   		<li class="list-group-item">Reservación de Tomás</li>
   		<li class="list-group-item">Reservación de Karla</li>
@@ -36,7 +27,4 @@
   
 </form>
 
-	<script src="js/bundle.js"></script>
-	<script src="js/bootstrap.js"></script>
-	</body>
-</html>
+{{> footer }}
