@@ -1,0 +1,28 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.0.6
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.clasePrueba h1 {
+  font-size: 60px; }
+
+.clasePrueba p {
+  font-size: 25px;
+  color: #3c1313; }
+
+.clasePrueba a {
+  font-size: 40px; }
+
+.clasePrueba a:hover {
+  background-color: yellow; }
+
+.clasePrueba .listado, .clasePrueba .listado .listadoHijo {
+  font-family: Lucida Sans Unicode;
+  font-size: 15px;
+  font-weight: bold;
+  font-variant: small-caps; }
+  .clasePrueba .listado .listadoHijo {
+    color: yellow; }
+  .clasePrueba .listado p.nombre {
+    font-style: italic; }

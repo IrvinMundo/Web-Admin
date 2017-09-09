@@ -1,0 +1,43 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.0.6
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+
+// Compass
+
+
+.clasePrueba{
+    h1{
+        font-size: 60px
+    }
+    p{
+        font-size: 25px;
+        color:#3c1313;
+    }
+    a{
+        font-size: 40px;
+    }
+    a:hover{
+        background-color: yellow;
+    }
+    .listado{
+        font:{
+            family: Lucida Sans Unicode;
+            size: 15px;
+            weight: bold;
+            variant: small-caps;
+            
+        }
+        .listadoHijo{
+		@extend.listado;//toma las características del padre
+		color: yellow;
+	}
+	
+	$nombre: "estiloVar";
+	p.#{nombre}{
+		font-style: italic;
+	}
+    }
+}

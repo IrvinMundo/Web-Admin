@@ -1,0 +1,12 @@
+{
+	"title" : "Prueba",
+	"features" : [
+		{ "item" : "Alfred" },
+		{ "item" : "Emi" },
+		{ "item" : "Basoco" },
+		{ "item" : "Alison" }
+	],
+    "alumnos": [
+        {"nombre": "Hola", "matricula": "A01333820"}
+    ]
+}
