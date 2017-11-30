@@ -1,0 +1,21 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th><h1>Canción</h1></th>
+      <th><h1>Artista</h1></th>
+      <th><h1>Album</h1></th>
+      <th><h1>Duración</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of canciones">
+      <th>
+        {{item.nombre}}
+        <button (click)="borrar(item.id);">Borrar Canción</button>
+      </th>
+      <th>{{item.artista}}</th>
+      <th>{{item.album}}</th>
+      <th>{{item.duracion}}ms</th>
+    </tr>
+  </tbody>
+</table>

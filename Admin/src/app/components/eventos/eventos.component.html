@@ -1,0 +1,21 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th><h1>Nombre</h1></th>
+      <th><h1>Fecha</h1></th>
+      <th><h1>Hora</h1></th>
+      <th><h1># Personas</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of eventos">
+      <th>
+        {{item.nombre}}
+        <button (click)="borrar(item.id);">Borrar Evento</button>
+      </th>
+      <th>{{item.fecha}}</th>
+      <th>{{item.hora}}</th>
+      <th>{{item.numeropersonas}}</th>
+    </tr>
+  </tbody>
+</table>
