@@ -20,6 +20,9 @@ export class ListareproduccionComponent implements OnInit {
 
   borrar(id: string){
     this.info.deleteCancion(id).subscribe(resData => this.claves = resData);
+    this.info.getCanciones()
+        .subscribe(resData => this.canciones = resData);
+    window.location.reload();
   }
 
 }

@@ -20,6 +20,9 @@ export class EventosComponent implements OnInit {
 
   borrar(id: string){
     this.info.deleteEvento(id).subscribe(resData => this.claves = resData);
+    this.info.getEventos()
+        .subscribe(resData => this.eventos = resData);
+    window.location.reload();
   }
 
 }

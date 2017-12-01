@@ -20,6 +20,9 @@ export class PedidosComponent implements OnInit {
 
   borrar(id: string){
     this.info.deletePedido(id).subscribe(resData => this.claves = resData);
+    this.info.getPedidos()
+        .subscribe(resData => this.pedidos = resData);
+    
   }
 
 }
